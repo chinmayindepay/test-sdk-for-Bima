@@ -1,0 +1,4 @@
+framework module spl {
+  header "spl-Swift.h"
+  requires objc
+}
