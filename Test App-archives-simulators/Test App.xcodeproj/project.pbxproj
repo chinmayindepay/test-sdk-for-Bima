@@ -9,16 +9,17 @@
 /* Begin PBXBuildFile section */
 		4A50C13E2B6BC19000BD2A06 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4A50C13D2B6BC19000BD2A06 /* CryptoSwift */; };
 		4A50C1412B6BC1A200BD2A06 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4A50C1402B6BC1A200BD2A06 /* Alamofire */; };
-		4A50C1442B6BC21300BD2A06 /* SwiftyRSA in Frameworks */ = {isa = PBXBuildFile; productRef = 4A50C1432B6BC21300BD2A06 /* SwiftyRSA */; };
 		4A50C14C2B6BC3EC00BD2A06 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 4A50C14B2B6BC3EC00BD2A06 /* URLImage */; };
-		4A50C14D2B6BC3F900BD2A06 /* SwiftyRSA in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 4A50C1432B6BC21300BD2A06 /* SwiftyRSA */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4A50C14E2B6BC59E00BD2A06 /* URLImage_-214DFC6E96679022_PackageProduct.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C8282B6BAAE10076A854 /* URLImage_-214DFC6E96679022_PackageProduct.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		82D1C8312B6BAAE90076A854 /* paymentlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C8292B6BAAE20076A854 /* paymentlib.framework */; };
-		82D1C8322B6BAAE90076A854 /* paymentlib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C8292B6BAAE20076A854 /* paymentlib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		82D1C8332B6BAAEA0076A854 /* pspsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C82A2B6BAAE20076A854 /* pspsdk.framework */; };
-		82D1C8342B6BAAEA0076A854 /* pspsdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C82A2B6BAAE20076A854 /* pspsdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		82D1C8352B6BAAEB0076A854 /* spl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C8272B6BAAE00076A854 /* spl.framework */; };
-		82D1C8362B6BAAEB0076A854 /* spl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1C8272B6BAAE00076A854 /* spl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		824EE5422B86231E00CB8218 /* paymentlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824EE53B2B86230C00CB8218 /* paymentlib.framework */; };
+		824EE5432B86231E00CB8218 /* paymentlib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 824EE53B2B86230C00CB8218 /* paymentlib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		824EE5442B86231F00CB8218 /* pspsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824EE53A2B86230B00CB8218 /* pspsdk.framework */; };
+		824EE5452B86231F00CB8218 /* pspsdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 824EE53A2B86230B00CB8218 /* pspsdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		824EE5462B86232400CB8218 /* spl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824EE5382B86230B00CB8218 /* spl.framework */; };
+		824EE5472B86232400CB8218 /* spl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 824EE5382B86230B00CB8218 /* spl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		824EE54C2B8623A400CB8218 /* SwiftyRSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824EE5392B86230B00CB8218 /* SwiftyRSA.framework */; };
+		824EE54D2B8623A400CB8218 /* SwiftyRSA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 824EE5392B86230B00CB8218 /* SwiftyRSA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		824EE54E2B8623C700CB8218 /* URLImage_-214DFC6E96679022_PackageProduct.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824EE53C2B86230C00CB8218 /* URLImage_-214DFC6E96679022_PackageProduct.framework */; };
+		824EE54F2B8623C700CB8218 /* URLImage_-214DFC6E96679022_PackageProduct.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 824EE53C2B86230C00CB8218 /* URLImage_-214DFC6E96679022_PackageProduct.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		82D693302B62FD0100146B93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D6932F2B62FD0100146B93 /* AppDelegate.swift */; };
 		82D693322B62FD0100146B93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D693312B62FD0100146B93 /* SceneDelegate.swift */; };
 		82D693342B62FD0100146B93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D693332B62FD0100146B93 /* ViewController.swift */; };
@@ -54,11 +55,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4A50C14E2B6BC59E00BD2A06 /* URLImage_-214DFC6E96679022_PackageProduct.framework in Embed Frameworks */,
-				82D1C8322B6BAAE90076A854 /* paymentlib.framework in Embed Frameworks */,
-				4A50C14D2B6BC3F900BD2A06 /* SwiftyRSA in Embed Frameworks */,
-				82D1C8362B6BAAEB0076A854 /* spl.framework in Embed Frameworks */,
-				82D1C8342B6BAAEA0076A854 /* pspsdk.framework in Embed Frameworks */,
+				824EE5472B86232400CB8218 /* spl.framework in Embed Frameworks */,
+				824EE5452B86231F00CB8218 /* pspsdk.framework in Embed Frameworks */,
+				824EE54D2B8623A400CB8218 /* SwiftyRSA.framework in Embed Frameworks */,
+				824EE54F2B8623C700CB8218 /* URLImage_-214DFC6E96679022_PackageProduct.framework in Embed Frameworks */,
+				824EE5432B86231E00CB8218 /* paymentlib.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,12 +67,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		824EE5382B86230B00CB8218 /* spl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = spl.framework; sourceTree = "<group>"; };
+		824EE5392B86230B00CB8218 /* SwiftyRSA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyRSA.framework; sourceTree = "<group>"; };
+		824EE53A2B86230B00CB8218 /* pspsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pspsdk.framework; sourceTree = "<group>"; };
+		824EE53B2B86230C00CB8218 /* paymentlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = paymentlib.framework; sourceTree = "<group>"; };
+		824EE53C2B86230C00CB8218 /* URLImage_-214DFC6E96679022_PackageProduct.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "URLImage_-214DFC6E96679022_PackageProduct.framework"; sourceTree = "<group>"; };
 		82D1C8242B6B9C5B0076A854 /* paymentlib 01-02-24, 14.54.xcarchive */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "paymentlib 01-02-24, 14.54.xcarchive"; path = "../../../../Desktop/ios-payment-sdk/pspapp/archives/paymentlib 2024-02-01 14-54-49/paymentlib 01-02-24, 14.54.xcarchive"; sourceTree = "<group>"; };
-		82D1C8272B6BAAE00076A854 /* spl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = spl.framework; sourceTree = "<group>"; };
-		82D1C8282B6BAAE10076A854 /* URLImage_-214DFC6E96679022_PackageProduct.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "URLImage_-214DFC6E96679022_PackageProduct.framework"; sourceTree = "<group>"; };
-		82D1C8292B6BAAE20076A854 /* paymentlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = paymentlib.framework; sourceTree = "<group>"; };
-		82D1C82A2B6BAAE20076A854 /* pspsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pspsdk.framework; sourceTree = "<group>"; };
-		82D1C82B2B6BAAE30076A854 /* SwiftyRSA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyRSA.framework; sourceTree = "<group>"; };
 		82D6932C2B62FD0100146B93 /* Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D6932F2B62FD0100146B93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82D693312B62FD0100146B93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,13 +93,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82D1C8352B6BAAEB0076A854 /* spl.framework in Frameworks */,
+				824EE54E2B8623C700CB8218 /* URLImage_-214DFC6E96679022_PackageProduct.framework in Frameworks */,
 				4A50C1412B6BC1A200BD2A06 /* Alamofire in Frameworks */,
-				82D1C8332B6BAAEA0076A854 /* pspsdk.framework in Frameworks */,
-				4A50C1442B6BC21300BD2A06 /* SwiftyRSA in Frameworks */,
 				4A50C14C2B6BC3EC00BD2A06 /* URLImage in Frameworks */,
-				82D1C8312B6BAAE90076A854 /* paymentlib.framework in Frameworks */,
+				824EE5462B86232400CB8218 /* spl.framework in Frameworks */,
+				824EE54C2B8623A400CB8218 /* SwiftyRSA.framework in Frameworks */,
 				4A50C13E2B6BC19000BD2A06 /* CryptoSwift in Frameworks */,
+				824EE5442B86231F00CB8218 /* pspsdk.framework in Frameworks */,
+				824EE5422B86231E00CB8218 /* paymentlib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,11 +124,11 @@
 		82D693232B62FD0100146B93 = {
 			isa = PBXGroup;
 			children = (
-				82D1C8292B6BAAE20076A854 /* paymentlib.framework */,
-				82D1C82A2B6BAAE20076A854 /* pspsdk.framework */,
-				82D1C8272B6BAAE00076A854 /* spl.framework */,
-				82D1C82B2B6BAAE30076A854 /* SwiftyRSA.framework */,
-				82D1C8282B6BAAE10076A854 /* URLImage_-214DFC6E96679022_PackageProduct.framework */,
+				824EE53B2B86230C00CB8218 /* paymentlib.framework */,
+				824EE53A2B86230B00CB8218 /* pspsdk.framework */,
+				824EE5382B86230B00CB8218 /* spl.framework */,
+				824EE5392B86230B00CB8218 /* SwiftyRSA.framework */,
+				824EE53C2B86230C00CB8218 /* URLImage_-214DFC6E96679022_PackageProduct.framework */,
 				82D6932E2B62FD0100146B93 /* Test App */,
 				82D693452B62FD0400146B93 /* Test AppTests */,
 				82D6934F2B62FD0400146B93 /* Test AppUITests */,
@@ -191,10 +193,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82D693562B62FD0400146B93 /* Build configuration list for PBXNativeTarget "Test App" */;
 			buildPhases = (
+				824D51D82B66C169006FA5A5 /* Embed Frameworks */,
 				82D693282B62FD0100146B93 /* Sources */,
 				82D693292B62FD0100146B93 /* Frameworks */,
 				82D6932A2B62FD0100146B93 /* Resources */,
-				824D51D82B66C169006FA5A5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,7 +206,6 @@
 			packageProductDependencies = (
 				4A50C13D2B6BC19000BD2A06 /* CryptoSwift */,
 				4A50C1402B6BC1A200BD2A06 /* Alamofire */,
-				4A50C1432B6BC21300BD2A06 /* SwiftyRSA */,
 				4A50C14B2B6BC3EC00BD2A06 /* URLImage */,
 			);
 			productName = "Test App";
@@ -740,11 +741,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4A50C13F2B6BC1A200BD2A06 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
-		};
-		4A50C1432B6BC21300BD2A06 /* SwiftyRSA */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4A50C1422B6BC21300BD2A06 /* XCRemoteSwiftPackageReference "SwiftyRSA" */;
-			productName = SwiftyRSA;
 		};
 		4A50C14B2B6BC3EC00BD2A06 /* URLImage */ = {
 			isa = XCSwiftPackageProductDependency;
