@@ -53,7 +53,7 @@ public class PaymentLib {
   public func startDynamicBankBinding(withpayment: Swift.Bool, bic: Swift.String, email: Swift.String, firstName: Swift.String, lastName: Swift.String, mobileNumber: Swift.String, amount: Swift.String, merchantName: Swift.String, orderId: Swift.String, remarks: Swift.String, onResult: @escaping ([Swift.String : Any]) -> Swift.Void)
   public func startBindingUsingCard(email: Swift.String, firstName: Swift.String, lastName: Swift.String, mobileNumber: Swift.String, onResult: @escaping ([Swift.String : Any]) -> Swift.Void)
   public func startPayment(amount: Swift.Int, deeplinkCallback: Swift.String, referenceId: Swift.String, directPaymentType: Swift.String?, remarks: Swift.String, email: Swift.String, firstName: Swift.String, lastName: Swift.String, mobileNumber: Swift.String, onResult: @escaping ([Swift.String : Any]) -> Swift.Void)
-  public func startCollect(clientId: Swift.String, paymentId: Swift.String?, onResult: @escaping ([Swift.String : Any]) -> Swift.Void)
+  public func startCollect(url: Foundation.URL, onResult: @escaping ([Swift.String : Any]) -> Swift.Void)
   public func openManageRewardScreen(mobileNumberWithCountryCode: Swift.String)
   @objc deinit
 }

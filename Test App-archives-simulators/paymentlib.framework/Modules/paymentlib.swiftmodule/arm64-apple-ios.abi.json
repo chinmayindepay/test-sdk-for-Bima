@@ -1568,7 +1568,7 @@
           {
             "kind": "Function",
             "name": "startCollect",
-            "printedName": "startCollect(clientId:paymentId:onResult:)",
+            "printedName": "startCollect(url:onResult:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1577,23 +1577,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
               },
               {
                 "kind": "TypeFunc",
@@ -1628,8 +1614,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10paymentlib10PaymentLibC12startCollect8clientId07paymentG08onResultySS_SSSgySDySSypGctF",
-            "mangledName": "$s10paymentlib10PaymentLibC12startCollect8clientId07paymentG08onResultySS_SSSgySDySSypGctF",
+            "usr": "s:10paymentlib10PaymentLibC12startCollect3url8onResulty10Foundation3URLV_ySDySSypGctF",
+            "mangledName": "$s10paymentlib10PaymentLibC12startCollect3url8onResulty10Foundation3URLV_ySDySSypGctF",
             "moduleName": "paymentlib",
             "declAttributes": [
               "AccessControl"
@@ -12349,16 +12335,6 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "paymentlib",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "paymentlib"
       },
       {
@@ -15333,3633 +15309,3668 @@
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 4522,
+      "offset": 4528,
       "length": 20,
       "value": "\"payid --> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 4541,
+      "offset": 4547,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 4613,
+      "offset": 4619,
       "length": 49,
       "value": "\"payid empty in cache or doesn't match-manageSof\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 4735,
+      "offset": 4741,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 4974,
+      "offset": 4980,
       "length": 52,
       "value": "\"The device is registered, no need for registration\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 5077,
+      "offset": 5083,
       "length": 29,
       "value": "\"The device is unregistered.\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 5149,
+      "offset": 5155,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 5295,
+      "offset": 5301,
       "length": 12,
       "value": "\"privacyUrl\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 5371,
+      "offset": 5377,
       "length": 8,
       "value": "\"tncUrl\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 5450,
+      "offset": 5456,
       "length": 34,
       "value": "\"getFooterDetails going to called\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 6006,
+      "offset": 6012,
       "length": 38,
       "value": "\"tncurl --> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 6043,
+      "offset": 6049,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 6132,
+      "offset": 6138,
       "length": 8,
       "value": "\"tncUrl\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 6411,
+      "offset": 6417,
       "length": 12,
       "value": "\"privacyUrl\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 6459,
+      "offset": 6465,
       "length": 46,
       "value": "\"privacyurl --> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 6504,
+      "offset": 6510,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 6654,
+      "offset": 6660,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 6709,
+      "offset": 6715,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 6803,
+      "offset": 6809,
       "length": 26,
       "value": "\"error here--->>>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 6828,
+      "offset": 6834,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 6906,
+      "offset": 6912,
       "length": 33,
       "value": "\"privacy, tnc url found in cache\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 7576,
+      "offset": 7582,
       "length": 39,
       "value": "\"registration successful in manage sof\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 7751,
+      "offset": 7757,
       "length": 34,
       "value": "\"saved cards exist -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 7784,
+      "offset": 7790,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 8121,
+      "offset": 8127,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 8203,
+      "offset": 8209,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 8219,
+      "offset": 8225,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 8353,
+      "offset": 8359,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 8465,
+      "offset": 8471,
       "length": 39,
       "value": "\"error in get cust profile -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 8503,
+      "offset": 8509,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 8745,
+      "offset": 8751,
       "length": 34,
       "value": "\"saved cards exist -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 8778,
+      "offset": 8784,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 9067,
+      "offset": 9073,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 9133,
+      "offset": 9139,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 9149,
+      "offset": 9155,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 9267,
+      "offset": 9273,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 9347,
+      "offset": 9353,
       "length": 39,
       "value": "\"error in get cust profile -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 9385,
+      "offset": 9391,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 9649,
+      "offset": 9655,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 9730,
+      "offset": 9736,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 9845,
+      "offset": 9857,
       "length": 20,
       "value": "\"payid --> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 9864,
+      "offset": 9876,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 9936,
+      "offset": 9948,
       "length": 48,
       "value": "\"payid empty in cache or doesn't match-getPayId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 10057,
+      "offset": 10069,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 10297,
+      "offset": 10309,
       "length": 52,
       "value": "\"The device is registered, no need for registration\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 10406,
+      "offset": 10418,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 10417,
+      "offset": 10429,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 10452,
+      "offset": 10464,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 10464,
+      "offset": 10476,
       "length": 20,
       "value": "\"Already Registered\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 10510,
+      "offset": 10522,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 10604,
+      "offset": 10616,
       "length": 29,
       "value": "\"The device is unregistered.\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 10676,
+      "offset": 10688,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 11269,
+      "offset": 11281,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 11280,
+      "offset": 11292,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 11323,
+      "offset": 11335,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 11335,
+      "offset": 11347,
       "length": 20,
       "value": "\"Already Registered\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 11389,
+      "offset": 11401,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 11546,
+      "offset": 11558,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 11557,
+      "offset": 11569,
       "length": 8,
       "value": "\"FAILED\""
-    },
-    {
-      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
-      "kind": "StringLiteral",
-      "offset": 11599,
-      "length": 9,
-      "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
       "offset": 11611,
-      "length": 21,
-      "value": "\"Registration Failed\""
-    },
-    {
-      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
-      "kind": "StringLiteral",
-      "offset": 11666,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
-      "kind": "StringLiteral",
-      "offset": 11856,
-      "length": 8,
-      "value": "\"status\""
-    },
-    {
-      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
-      "kind": "StringLiteral",
-      "offset": 11867,
-      "length": 8,
-      "value": "\"FAILED\""
-    },
-    {
-      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
-      "kind": "StringLiteral",
-      "offset": 11893,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 11905,
+      "offset": 11623,
       "length": 21,
       "value": "\"Registration Failed\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 11944,
+      "offset": 11678,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "StringLiteral",
+      "offset": 11868,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "StringLiteral",
+      "offset": 11879,
+      "length": 8,
+      "value": "\"FAILED\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "StringLiteral",
+      "offset": 11905,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "StringLiteral",
+      "offset": 11917,
+      "length": 21,
+      "value": "\"Registration Failed\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "StringLiteral",
+      "offset": 11956,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 12235,
+      "offset": 12247,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 12316,
+      "offset": 12328,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 12431,
+      "offset": 12449,
       "length": 20,
       "value": "\"payid --> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 12450,
+      "offset": 12468,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 12522,
+      "offset": 12540,
       "length": 51,
       "value": "\"payid empty in cache or doesn't match-getPayId_V2\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 12646,
+      "offset": 12664,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 13370,
+      "offset": 13396,
       "length": 52,
       "value": "\"The device is registered, no need for registration\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 13495,
+      "offset": 13521,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 13506,
+      "offset": 13532,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 13549,
+      "offset": 13575,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 13561,
+      "offset": 13587,
       "length": 20,
       "value": "\"Already Registered\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 13615,
+      "offset": 13641,
       "length": 7,
       "value": "\"payId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 13671,
+      "offset": 13697,
       "length": 9,
       "value": "\"rewards\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 13724,
+      "offset": 13750,
       "length": 10,
       "value": "\"accounts\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 13943,
+      "offset": 13969,
       "length": 29,
       "value": "\"The device is unregistered.\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 14015,
+      "offset": 14041,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 15109,
+      "offset": 15143,
       "length": 52,
       "value": "\"The device is registered, no need for registration\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 15250,
+      "offset": 15284,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 15261,
+      "offset": 15295,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 15312,
+      "offset": 15346,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 15324,
+      "offset": 15358,
       "length": 20,
       "value": "\"Already Registered\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 15386,
+      "offset": 15420,
       "length": 7,
       "value": "\"payId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 15450,
+      "offset": 15484,
       "length": 9,
       "value": "\"rewards\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 15511,
+      "offset": 15545,
       "length": 10,
       "value": "\"accounts\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 15806,
+      "offset": 15840,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 15817,
+      "offset": 15851,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 15859,
+      "offset": 15893,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 15871,
+      "offset": 15905,
       "length": 21,
       "value": "\"Registration Failed\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 15926,
+      "offset": 15960,
       "length": 7,
       "value": "\"payId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 15982,
+      "offset": 16016,
       "length": 9,
       "value": "\"rewards\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "IntegerLiteral",
-      "offset": 15994,
+      "offset": 16028,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 16029,
+      "offset": 16063,
       "length": 10,
       "value": "\"accounts\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "IntegerLiteral",
-      "offset": 16042,
+      "offset": 16076,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 16212,
+      "offset": 16246,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 16223,
+      "offset": 16257,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 16249,
+      "offset": 16283,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 16261,
+      "offset": 16295,
       "length": 21,
       "value": "\"Registration Failed\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 16300,
+      "offset": 16334,
       "length": 7,
       "value": "\"payId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 16340,
+      "offset": 16374,
       "length": 9,
       "value": "\"rewards\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "IntegerLiteral",
-      "offset": 16352,
+      "offset": 16386,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 16371,
+      "offset": 16405,
       "length": 10,
       "value": "\"accounts\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "IntegerLiteral",
-      "offset": 16384,
+      "offset": 16418,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 16785,
+      "offset": 16819,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 16807,
+      "offset": 16841,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 17265,
+      "offset": 17299,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 17276,
+      "offset": 17310,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 17315,
+      "offset": 17349,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 17327,
+      "offset": 17361,
       "length": 21,
       "value": "\"All Linked Accounts\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 17378,
-      "length": 6,
-      "value": "\"data\""
+      "offset": 17412,
+      "length": 17,
+      "value": "\"customerProfile\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 17496,
+      "offset": 17541,
       "length": 39,
       "value": "\"error in get cust profile -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 17534,
+      "offset": 17579,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 17600,
+      "offset": 17645,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 17611,
+      "offset": 17656,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 17649,
+      "offset": 17694,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 17661,
+      "offset": 17706,
       "length": 25,
       "value": "\"Something went wrong...\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 17716,
-      "length": 6,
-      "value": "\"data\""
+      "offset": 17761,
+      "length": 17,
+      "value": "\"customerProfile\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 18242,
+      "offset": 18298,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 18264,
+      "offset": 18320,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 18578,
+      "offset": 18634,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 18944,
+      "offset": 19000,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 18955,
+      "offset": 19011,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 18994,
+      "offset": 19050,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 19006,
+      "offset": 19062,
       "length": 22,
       "value": "\"Primary Bank Account\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 19058,
-      "length": 6,
-      "value": "\"data\""
+      "offset": 19114,
+      "length": 17,
+      "value": "\"customerProfile\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 19176,
+      "offset": 19243,
       "length": 39,
       "value": "\"error in get cust profile -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 19214,
+      "offset": 19281,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 19280,
+      "offset": 19347,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 19291,
+      "offset": 19358,
       "length": 8,
       "value": "\"FAILED\""
-    },
-    {
-      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
-      "kind": "StringLiteral",
-      "offset": 19329,
-      "length": 9,
-      "value": "\"message\""
-    },
-    {
-      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
-      "kind": "StringLiteral",
-      "offset": 19341,
-      "length": 25,
-      "value": "\"Something went wrong...\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
       "offset": 19396,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
-      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
-      "kind": "StringLiteral",
-      "offset": 19563,
-      "length": 8,
-      "value": "\"status\""
-    },
-    {
-      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
-      "kind": "StringLiteral",
-      "offset": 19574,
-      "length": 8,
-      "value": "\"FAILED\""
-    },
-    {
-      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
-      "kind": "StringLiteral",
-      "offset": 19608,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 19620,
+      "offset": 19408,
       "length": 25,
       "value": "\"Something went wrong...\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 19671,
-      "length": 6,
-      "value": "\"data\""
+      "offset": 19463,
+      "length": 17,
+      "value": "\"customerProfile\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20042,
+      "offset": 19641,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "StringLiteral",
+      "offset": 19652,
+      "length": 8,
+      "value": "\"FAILED\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "StringLiteral",
+      "offset": 19686,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "StringLiteral",
+      "offset": 19698,
+      "length": 25,
+      "value": "\"Something went wrong...\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "StringLiteral",
+      "offset": 19749,
+      "length": 17,
+      "value": "\"customerProfile\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "StringLiteral",
+      "offset": 20131,
       "length": 18,
       "value": "\"callback success\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20114,
+      "offset": 20203,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20134,
+      "offset": 20223,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20147,
+      "offset": 20236,
       "length": 8,
       "value": "\"SUCESS\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20173,
+      "offset": 20262,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20194,
+      "offset": 20283,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20208,
+      "offset": 20297,
       "length": 17,
       "value": "\"Payment Success\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20243,
+      "offset": 20332,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20266,
+      "offset": 20355,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20282,
+      "offset": 20371,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20383,
+      "offset": 20472,
       "length": 18,
       "value": "\"callback failure\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20442,
+      "offset": 20531,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20462,
+      "offset": 20551,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20475,
+      "offset": 20564,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20501,
+      "offset": 20590,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20522,
+      "offset": 20611,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20536,
+      "offset": 20625,
       "length": 22,
       "value": "\"Something went wrong\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20576,
+      "offset": 20665,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20599,
+      "offset": 20688,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20615,
+      "offset": 20704,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 20685,
+      "offset": 20774,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20765,
+      "offset": 20854,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20879,
+      "offset": 20974,
       "length": 20,
       "value": "\"payid --> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20898,
+      "offset": 20993,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 20970,
+      "offset": 21065,
       "length": 61,
       "value": "\"payid empty in cache or doesn't match-startBankRegistration\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 21104,
+      "offset": 21199,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 21344,
+      "offset": 21439,
       "length": 52,
       "value": "\"The device is registered, no need for registration\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 21447,
+      "offset": 21542,
       "length": 29,
       "value": "\"The device is unregistered.\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 21519,
+      "offset": 21614,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 22174,
+      "offset": 22269,
       "length": 39,
       "value": "\"registration successful in manage sof\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 22349,
+      "offset": 22444,
       "length": 54,
       "value": "\"saved cards exist -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 22402,
+      "offset": 22497,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 22695,
+      "offset": 22790,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 22863,
+      "offset": 22958,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 22887,
+      "offset": 22982,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 22900,
+      "offset": 22995,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 22947,
+      "offset": 23042,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 22972,
+      "offset": 23067,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 22986,
+      "offset": 23081,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 23033,
+      "offset": 23128,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 23060,
+      "offset": 23155,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 23110,
+      "offset": 23205,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 23204,
+      "offset": 23299,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 23377,
+      "offset": 23472,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 23459,
+      "offset": 23554,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 23475,
+      "offset": 23570,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 23609,
+      "offset": 23704,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 23721,
+      "offset": 23816,
       "length": 39,
       "value": "\"error in get cust profile -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 23759,
+      "offset": 23854,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 24001,
+      "offset": 24096,
       "length": 34,
       "value": "\"saved cards exist -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 24034,
+      "offset": 24129,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 24237,
+      "offset": 24332,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 24337,
+      "offset": 24432,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 24361,
+      "offset": 24456,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 24374,
+      "offset": 24469,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 24405,
+      "offset": 24500,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 24430,
+      "offset": 24525,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 24444,
+      "offset": 24539,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 24475,
+      "offset": 24570,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 24502,
+      "offset": 24597,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 24552,
+      "offset": 24647,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 24614,
+      "offset": 24709,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 24757,
+      "offset": 24852,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 24823,
+      "offset": 24918,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 24839,
+      "offset": 24934,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 24957,
+      "offset": 25052,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 25037,
+      "offset": 25132,
       "length": 39,
       "value": "\"error in get cust profile -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 25075,
+      "offset": 25170,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "IntegerLiteral",
-      "offset": 25119,
+      "offset": 25214,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 25184,
+      "offset": 25279,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 25243,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
-      "kind": "StringLiteral",
-      "offset": 26030,
+      "offset": 26088,
       "length": 18,
       "value": "\"callback success\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26102,
+      "offset": 26160,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26122,
+      "offset": 26180,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26135,
+      "offset": 26193,
       "length": 8,
       "value": "\"SUCESS\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26161,
+      "offset": 26219,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26182,
+      "offset": 26240,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26196,
+      "offset": 26254,
       "length": 17,
       "value": "\"Payment Success\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26231,
+      "offset": 26289,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26254,
+      "offset": 26312,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26270,
+      "offset": 26328,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26371,
+      "offset": 26429,
       "length": 18,
       "value": "\"callback failure\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26430,
+      "offset": 26488,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26450,
+      "offset": 26508,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26463,
+      "offset": 26521,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26489,
+      "offset": 26547,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26510,
+      "offset": 26568,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26524,
+      "offset": 26582,
       "length": 22,
       "value": "\"Something went wrong\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26564,
+      "offset": 26622,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26587,
+      "offset": 26645,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26603,
+      "offset": 26661,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 26673,
+      "offset": 26731,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26762,
+      "offset": 26820,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26876,
+      "offset": 26940,
       "length": 20,
       "value": "\"payid --> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26895,
+      "offset": 26959,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 26976,
+      "offset": 27040,
       "length": 59,
       "value": "\"payid empty in cache or doesn't match-startDynamicPayment\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 27108,
+      "offset": 27172,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 27348,
+      "offset": 27412,
       "length": 52,
       "value": "\"The device is registered, no need for registration\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 27451,
+      "offset": 27515,
       "length": 29,
       "value": "\"The device is unregistered.\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 27523,
+      "offset": 27587,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 28178,
+      "offset": 28242,
       "length": 39,
       "value": "\"registration successful in manage sof\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 28555,
+      "offset": 28619,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 28589,
+      "offset": 28653,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 28613,
+      "offset": 28677,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 28637,
+      "offset": 28701,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 29159,
+      "offset": 29223,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 29273,
+      "offset": 29337,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 29289,
+      "offset": 29353,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 29455,
+      "offset": 29519,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 29602,
+      "offset": 29666,
       "length": 39,
       "value": "\"error in get cust profile -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 29640,
+      "offset": 29704,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 29889,
+      "offset": 29953,
       "length": 34,
       "value": "\"saved cards exist -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 29922,
+      "offset": 29986,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 30153,
+      "offset": 30217,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 30172,
+      "offset": 30236,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 30234,
+      "offset": 30298,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 30251,
+      "offset": 30315,
       "length": 14,
       "value": "\"NOT-SELECTED\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 30318,
+      "offset": 30382,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 30350,
+      "offset": 30414,
       "length": 9,
       "value": "\"binding\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 30435,
+      "offset": 30499,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 30869,
+      "offset": 30933,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 30972,
+      "offset": 31036,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 30988,
+      "offset": 31052,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 31143,
+      "offset": 31207,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 31258,
+      "offset": 31322,
       "length": 39,
       "value": "\"error in get cust profile -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 31296,
+      "offset": 31360,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "IntegerLiteral",
-      "offset": 31340,
+      "offset": 31404,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 31405,
+      "offset": 31469,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 31464,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
-      "kind": "StringLiteral",
-      "offset": 32252,
+      "offset": 32279,
       "length": 18,
       "value": "\"callback success\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32324,
+      "offset": 32351,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32344,
+      "offset": 32371,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32357,
+      "offset": 32384,
       "length": 8,
       "value": "\"SUCESS\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32383,
+      "offset": 32410,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32404,
+      "offset": 32431,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32418,
+      "offset": 32445,
       "length": 17,
       "value": "\"Payment Success\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32453,
+      "offset": 32480,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32476,
+      "offset": 32503,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32492,
+      "offset": 32519,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32593,
+      "offset": 32620,
       "length": 18,
       "value": "\"callback failure\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32652,
+      "offset": 32679,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32672,
+      "offset": 32699,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32685,
+      "offset": 32712,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32711,
+      "offset": 32738,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32732,
+      "offset": 32759,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32746,
+      "offset": 32773,
       "length": 22,
       "value": "\"Something went wrong\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32786,
+      "offset": 32813,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32809,
+      "offset": 32836,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32825,
+      "offset": 32852,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 32895,
+      "offset": 32922,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 32984,
+      "offset": 33011,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 33098,
+      "offset": 33131,
       "length": 20,
       "value": "\"payid --> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 33117,
+      "offset": 33150,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 33198,
+      "offset": 33231,
       "length": 63,
       "value": "\"payid empty in cache or doesn't match-startDynamicBankBinding\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 33334,
+      "offset": 33367,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 33574,
+      "offset": 33607,
       "length": 52,
       "value": "\"The device is registered, no need for registration\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 33677,
+      "offset": 33710,
       "length": 29,
       "value": "\"The device is unregistered.\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 33749,
+      "offset": 33782,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 34404,
+      "offset": 34437,
       "length": 39,
       "value": "\"registration successful in manage sof\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 34804,
+      "offset": 34837,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 34823,
+      "offset": 34856,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 34885,
+      "offset": 34918,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 34902,
+      "offset": 34935,
       "length": 14,
       "value": "\"NOT-SELECTED\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 34969,
+      "offset": 35002,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 35001,
+      "offset": 35034,
       "length": 9,
       "value": "\"binding\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 35504,
+      "offset": 35537,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 35618,
+      "offset": 35651,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 35634,
+      "offset": 35667,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 35800,
+      "offset": 35833,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 35947,
+      "offset": 35980,
       "length": 39,
       "value": "\"error in get cust profile -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 35985,
+      "offset": 36018,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 36234,
+      "offset": 36267,
       "length": 34,
       "value": "\"saved cards exist -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 36267,
+      "offset": 36300,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 36498,
+      "offset": 36531,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 36517,
+      "offset": 36550,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 36579,
+      "offset": 36612,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 36596,
+      "offset": 36629,
       "length": 14,
       "value": "\"NOT-SELECTED\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 36663,
+      "offset": 36696,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 36695,
+      "offset": 36728,
       "length": 9,
       "value": "\"binding\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 37164,
+      "offset": 37197,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 37267,
+      "offset": 37300,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 37283,
+      "offset": 37316,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 37438,
+      "offset": 37471,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 37553,
+      "offset": 37586,
       "length": 39,
       "value": "\"error in get cust profile -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 37591,
+      "offset": 37624,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "IntegerLiteral",
-      "offset": 37635,
+      "offset": 37668,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 37700,
+      "offset": 37733,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 37759,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
-      "kind": "StringLiteral",
-      "offset": 38398,
+      "offset": 38394,
       "length": 18,
       "value": "\"callback success\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38457,
+      "offset": 38453,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38477,
+      "offset": 38473,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38490,
+      "offset": 38486,
       "length": 8,
       "value": "\"SUCESS\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38516,
+      "offset": 38512,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38537,
+      "offset": 38533,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38551,
+      "offset": 38547,
       "length": 17,
       "value": "\"Payment Success\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38586,
+      "offset": 38582,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38609,
+      "offset": 38605,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38625,
+      "offset": 38621,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38726,
+      "offset": 38722,
       "length": 18,
       "value": "\"callback failure\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38785,
+      "offset": 38781,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38805,
+      "offset": 38801,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38818,
+      "offset": 38814,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38844,
+      "offset": 38840,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38865,
+      "offset": 38861,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38879,
+      "offset": 38875,
       "length": 22,
       "value": "\"Something went wrong\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38919,
+      "offset": 38915,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38942,
+      "offset": 38938,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 38958,
+      "offset": 38954,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 39028,
+      "offset": 39024,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 39108,
+      "offset": 39104,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 39222,
+      "offset": 39224,
       "length": 20,
       "value": "\"payid --> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 39241,
+      "offset": 39243,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 39313,
+      "offset": 39315,
       "length": 61,
       "value": "\"payid empty in cache or doesn't match-startBindingUsingCard\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 39448,
+      "offset": 39450,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 39688,
+      "offset": 39690,
       "length": 52,
       "value": "\"The device is registered, no need for registration\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 39791,
+      "offset": 39793,
       "length": 29,
       "value": "\"The device is unregistered.\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 39863,
+      "offset": 39865,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 40518,
+      "offset": 40520,
       "length": 39,
       "value": "\"registration successful in manage sof\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 40693,
+      "offset": 40695,
       "length": 54,
       "value": "\"saved cards exist -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 40746,
+      "offset": 40748,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 40909,
+      "offset": 40911,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 40927,
+      "offset": 40929,
       "length": 14,
       "value": "\"NOT-SELECTED\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 41109,
+      "offset": 41111,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 41253,
+      "offset": 41255,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 41277,
+      "offset": 41279,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 41290,
+      "offset": 41292,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 41337,
+      "offset": 41339,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 41362,
+      "offset": 41364,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 41376,
+      "offset": 41378,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 41423,
+      "offset": 41425,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 41450,
+      "offset": 41452,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 41500,
+      "offset": 41502,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 41874,
+      "offset": 41876,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 41956,
+      "offset": 41958,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 41972,
+      "offset": 41974,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 42106,
+      "offset": 42108,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 42218,
+      "offset": 42220,
       "length": 39,
       "value": "\"error in get cust profile -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 42256,
+      "offset": 42258,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 42498,
+      "offset": 42500,
       "length": 34,
       "value": "\"saved cards exist -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 42531,
+      "offset": 42533,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 42678,
+      "offset": 42680,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 42695,
+      "offset": 42697,
       "length": 14,
       "value": "\"NOT-SELECTED\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 42856,
+      "offset": 42858,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 43088,
+      "offset": 43090,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 43112,
+      "offset": 43114,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 43125,
+      "offset": 43127,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 43156,
+      "offset": 43158,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 43181,
+      "offset": 43183,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 43195,
+      "offset": 43197,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 43226,
+      "offset": 43228,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 43253,
+      "offset": 43255,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 43303,
+      "offset": 43305,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 43567,
+      "offset": 43569,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 43633,
+      "offset": 43635,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 43649,
+      "offset": 43651,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 43767,
+      "offset": 43769,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 43847,
+      "offset": 43849,
       "length": 39,
       "value": "\"error in get cust profile -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 43885,
+      "offset": 43887,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "IntegerLiteral",
-      "offset": 43929,
+      "offset": 43931,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 43994,
+      "offset": 43996,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 44053,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
-      "kind": "StringLiteral",
-      "offset": 44831,
+      "offset": 44796,
       "length": 18,
       "value": "\"callback success\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 44936,
+      "offset": 44901,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45067,
+      "offset": 45032,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45096,
+      "offset": 45061,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45109,
+      "offset": 45074,
       "length": 8,
       "value": "\"SUCESS\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45139,
+      "offset": 45104,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45169,
+      "offset": 45134,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45183,
+      "offset": 45148,
       "length": 17,
       "value": "\"Payment Success\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45222,
+      "offset": 45187,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45254,
+      "offset": 45219,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45270,
+      "offset": 45235,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45410,
+      "offset": 45375,
       "length": 18,
       "value": "\"callback failure\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 45515,
+      "offset": 45480,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45646,
+      "offset": 45611,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45675,
+      "offset": 45640,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45688,
+      "offset": 45653,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45718,
+      "offset": 45683,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45748,
+      "offset": 45713,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45762,
+      "offset": 45727,
       "length": 22,
       "value": "\"Something went wrong\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45806,
+      "offset": 45771,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45838,
+      "offset": 45803,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 45854,
+      "offset": 45819,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 46035,
+      "offset": 46000,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 46119,
+      "offset": 46084,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 46245,
+      "offset": 46216,
       "length": 20,
       "value": "\"payid --> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 46264,
+      "offset": 46235,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 46344,
+      "offset": 46256,
+      "length": 27,
+      "value": "\"payid --> \""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "StringLiteral",
+      "offset": 46282,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "StringLiteral",
+      "offset": 46348,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "StringLiteral",
+      "offset": 46376,
       "length": 52,
       "value": "\"payid empty in cache or doesn't match-startPayment\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 46477,
+      "offset": 46509,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 46745,
+      "offset": 46789,
       "length": 52,
       "value": "\"The device is registered, no need for registration\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 46856,
+      "offset": 46900,
       "length": 29,
       "value": "\"The device is unregistered.\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 46932,
+      "offset": 46976,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 47252,
+      "offset": 47296,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 47339,
+      "offset": 47383,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 47483,
+      "offset": 47527,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 47604,
+      "offset": 47648,
       "length": 23,
       "value": "\"starting registration\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 48189,
+      "offset": 48233,
       "length": 38,
       "value": "\"tncurl --> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 48226,
+      "offset": 48270,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 48319,
+      "offset": 48363,
       "length": 8,
       "value": "\"tncUrl\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 48614,
+      "offset": 48658,
       "length": 12,
       "value": "\"privacyUrl\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 48666,
+      "offset": 48710,
       "length": 46,
       "value": "\"privacyurl --> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 48711,
+      "offset": 48755,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 49003,
+      "offset": 49193,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 49059,
+      "offset": 49379,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 49256,
+      "offset": 50081,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 49334,
+      "offset": 50482,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 49350,
+      "offset": 50884,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 49601,
+      "offset": 51109,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 49757,
+      "offset": 51354,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 49816,
+      "offset": 51413,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 49922,
+      "offset": 51519,
       "length": 26,
       "value": "\"error here--->>>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 49947,
+      "offset": 51544,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 50243,
+      "offset": 51840,
       "length": 52,
       "value": "\"-------------- success from provider -------------\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 50559,
+      "offset": 52156,
       "length": 46,
       "value": "\"-------------- parsing success -------------\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 50720,
+      "offset": 52317,
       "length": 37,
       "value": "\"self payment id ->\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 50756,
+      "offset": 52353,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 50789,
+      "offset": 52386,
       "length": 46,
       "value": "\"init resp payment id ->\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 50834,
+      "offset": 52431,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 50880,
+      "offset": 52477,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 51239,
+      "offset": 52836,
       "length": 25,
       "value": "\"in success===>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 51263,
+      "offset": 52860,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 51296,
+      "offset": 52893,
       "length": 37,
       "value": "\"in success===>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 51332,
+      "offset": 52929,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 51365,
+      "offset": 52962,
       "length": 33,
       "value": "\"in success===>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 51397,
+      "offset": 52994,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 51455,
+      "offset": 53052,
       "length": 100,
       "value": "\"Redirecting to payment methods view or webpage or added card screen according to init api response\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 51651,
+      "offset": 53248,
       "length": 47,
       "value": "\"root level payment method defined in init api\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 51906,
+      "offset": 53503,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 51916,
+      "offset": 53513,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 52249,
+      "offset": 53846,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 52268,
+      "offset": 53865,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 52283,
+      "offset": 53880,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 52294,
+      "offset": 53891,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 52302,
+      "offset": 53899,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 52314,
+      "offset": 53911,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 52373,
+      "offset": 53970,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 52384,
+      "offset": 53981,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 52445,
+      "offset": 54042,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 52462,
+      "offset": 54059,
       "length": 14,
       "value": "\"NOT-SELECTED\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 52667,
+      "offset": 54264,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 52745,
+      "offset": 54342,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 52761,
+      "offset": 54358,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 52891,
+      "offset": 54488,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 53176,
+      "offset": 54773,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 53389,
+      "offset": 54986,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 53467,
+      "offset": 55064,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 53483,
+      "offset": 55080,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 53613,
+      "offset": 55210,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 54132,
+      "offset": 55729,
       "length": 34,
       "value": "\"saved cards exist -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 54165,
+      "offset": 55762,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 54452,
+      "offset": 56217,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 54670,
+      "offset": 56667,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 54756,
+      "offset": 57100,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 54772,
+      "offset": 57534,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 54910,
+      "offset": 57783,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 55016,
+      "offset": 57928,
       "length": 14,
       "value": "\"savedsdddddd\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 55208,
+      "offset": 58151,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 55282,
+      "offset": 58443,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 55463,
+      "offset": 58893,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 55549,
+      "offset": 59322,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 55565,
+      "offset": 59752,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 55703,
+      "offset": 59998,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 55849,
+      "offset": 60182,
       "length": 39,
       "value": "\"error in get cust profile -> \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 55887,
+      "offset": 60220,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 56081,
+      "offset": 60414,
       "length": 26,
       "value": "\"error here--->>>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 56106,
+      "offset": 60439,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 56518,
+      "offset": 60756,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "StringLiteral",
+      "offset": 60782,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "BooleanLiteral",
+      "offset": 60871,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "StringLiteral",
+      "offset": 60936,
+      "length": 9,
+      "value": "\"collect\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "StringLiteral",
+      "offset": 61079,
+      "length": 7,
+      "value": "\"pmtId\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "StringLiteral",
+      "offset": 61140,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
+      "kind": "StringLiteral",
+      "offset": 61290,
       "length": 20,
       "value": "\"mypaymentidisblank\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 56600,
+      "offset": 61388,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "StringLiteral",
-      "offset": 56616,
+      "offset": 61404,
       "length": 8,
       "value": "\"reason\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 57244,
+      "offset": 62192,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 57562,
+      "offset": 62574,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 57955,
+      "offset": 63063,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 58366,
+      "offset": 63580,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 58424,
+      "offset": 63638,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 58440,
+      "offset": 63654,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/widgets\/PaymentLib.swift",
       "kind": "BooleanLiteral",
-      "offset": 58631,
+      "offset": 63845,
       "length": 4,
       "value": "true"
     },
@@ -29354,14 +29365,14 @@
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "Dictionary",
-      "offset": 16559,
+      "offset": 16558,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 16593,
+      "offset": 16592,
       "length": 9,
       "value": "\"context\""
     },
@@ -29375,504 +29386,511 @@
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 17008,
+      "offset": 16954,
+      "length": 36,
+      "value": "\"Unable to decode PromotionResponse\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
+      "kind": "StringLiteral",
+      "offset": 17153,
       "length": 27,
       "value": "\"getRewardCountsCompletion\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 17196,
-      "length": 29,
-      "value": "\"here in catch--->>>\""
+      "offset": 17281,
+      "length": 44,
+      "value": "\"Error decoding PromotionResponse: \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 17224,
+      "offset": 17324,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 17409,
-      "length": 26,
-      "value": "\"error here--->>>\""
+      "offset": 17443,
+      "length": 41,
+      "value": "\"API request failed with error: \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 17434,
+      "offset": 17483,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "Dictionary",
-      "offset": 17768,
+      "offset": 17797,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "IntegerLiteral",
-      "offset": 18036,
+      "offset": 18065,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "Array",
-      "offset": 18189,
+      "offset": 18218,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "BooleanLiteral",
-      "offset": 18362,
+      "offset": 18391,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 18542,
+      "offset": 18571,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "Array",
-      "offset": 18567,
+      "offset": 18596,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "BooleanLiteral",
-      "offset": 18932,
+      "offset": 18961,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 19155,
+      "offset": 19184,
       "length": 23,
       "value": "\"jsonData--->>>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 19177,
+      "offset": 19206,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 19238,
+      "offset": 19267,
       "length": 29,
       "value": "\"here in catch--->>>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 19266,
+      "offset": 19295,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "BooleanLiteral",
-      "offset": 19363,
+      "offset": 19392,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 19450,
+      "offset": 19479,
       "length": 35,
       "value": "\"Failed while parsing fetched data\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 19626,
+      "offset": 19655,
       "length": 26,
       "value": "\"error here--->>>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 19651,
+      "offset": 19680,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 19882,
+      "offset": 19911,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "IntegerLiteral",
-      "offset": 20294,
+      "offset": 20323,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 20337,
+      "offset": 20366,
       "length": 15,
       "value": "\"fetchUserData\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "Array",
-      "offset": 20476,
+      "offset": 20505,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "BooleanLiteral",
-      "offset": 20645,
+      "offset": 20674,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 20798,
+      "offset": 20827,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "Array",
-      "offset": 20814,
+      "offset": 20843,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "BooleanLiteral",
-      "offset": 21107,
+      "offset": 21136,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 21329,
+      "offset": 21358,
       "length": 23,
       "value": "\"jsonData--->>>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 21351,
+      "offset": 21380,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 21414,
+      "offset": 21443,
       "length": 29,
       "value": "\"here in catch--->>>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 21442,
+      "offset": 21471,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "BooleanLiteral",
-      "offset": 21539,
+      "offset": 21568,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 21626,
+      "offset": 21655,
       "length": 35,
       "value": "\"Failed while parsing fetched data\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 21802,
+      "offset": 21831,
       "length": 26,
       "value": "\"error here--->>>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 21827,
+      "offset": 21856,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "BooleanLiteral",
-      "offset": 21937,
+      "offset": 21966,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 22016,
+      "offset": 22045,
       "length": 24,
       "value": "\"Something went wrong !\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 22417,
+      "offset": 22446,
       "length": 17,
       "value": "\"customerDetails\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 22454,
+      "offset": 22483,
       "length": 7,
       "value": "\"phone\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "IntegerLiteral",
-      "offset": 22782,
+      "offset": 22811,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 22823,
+      "offset": 22852,
       "length": 33,
       "value": "\"fetchUserData--->>>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 22855,
+      "offset": 22884,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "Array",
-      "offset": 22980,
+      "offset": 23009,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "BooleanLiteral",
-      "offset": 23149,
+      "offset": 23178,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "Array",
-      "offset": 23309,
+      "offset": 23338,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "BooleanLiteral",
-      "offset": 23602,
+      "offset": 23631,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 23824,
+      "offset": 23853,
       "length": 23,
       "value": "\"jsonData--->>>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 23846,
+      "offset": 23875,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 23909,
+      "offset": 23938,
       "length": 29,
       "value": "\"here in catch--->>>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 23937,
+      "offset": 23966,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "BooleanLiteral",
-      "offset": 24034,
+      "offset": 24063,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 24121,
+      "offset": 24150,
       "length": 35,
       "value": "\"Failed while parsing fetched data\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 24297,
+      "offset": 24326,
       "length": 26,
       "value": "\"error here--->>>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 24322,
+      "offset": 24351,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "BooleanLiteral",
-      "offset": 24432,
+      "offset": 24461,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 24511,
+      "offset": 24540,
       "length": 24,
       "value": "\"Something went wrong !\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 24858,
+      "offset": 24887,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 25046,
+      "offset": 25075,
       "length": 20,
       "value": "\"merchantTemplateId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "IntegerLiteral",
-      "offset": 25364,
+      "offset": 25393,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "BooleanLiteral",
-      "offset": 25473,
+      "offset": 25502,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "BooleanLiteral",
-      "offset": 25774,
+      "offset": 25803,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 25996,
+      "offset": 26025,
       "length": 23,
       "value": "\"jsonData--->>>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 26018,
+      "offset": 26047,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 26081,
+      "offset": 26110,
       "length": 29,
       "value": "\"here in catch--->>>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 26109,
+      "offset": 26138,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "BooleanLiteral",
-      "offset": 26206,
+      "offset": 26235,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 26293,
+      "offset": 26322,
       "length": 35,
       "value": "\"Failed while parsing fetched data\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 26469,
+      "offset": 26498,
       "length": 26,
       "value": "\"error here--->>>\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 26494,
+      "offset": 26523,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "BooleanLiteral",
-      "offset": 26604,
+      "offset": 26633,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/utils\/Provider.swift",
       "kind": "StringLiteral",
-      "offset": 26683,
+      "offset": 26712,
       "length": 24,
       "value": "\"Something went wrong !\""
     },
@@ -31685,602 +31703,602 @@
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 22594,
+      "offset": 22600,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 22687,
+      "offset": 22693,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 22756,
+      "offset": 22762,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 22947,
+      "offset": 22953,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 23008,
+      "offset": 23014,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 23049,
+      "offset": 23055,
       "length": 6,
       "value": "\"tara\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 23097,
+      "offset": 23103,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 23380,
+      "offset": 23386,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 23950,
+      "offset": 23956,
       "length": 8,
       "value": "\"999999\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 24070,
+      "offset": 24076,
       "length": 31,
       "value": "\"cvvCode is this->\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 24100,
+      "offset": 24106,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 24378,
+      "offset": 24384,
       "length": 15,
       "value": "\"FINANCIAL_TXN\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 24441,
+      "offset": 24447,
       "length": 6,
       "value": "\"MPIN\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 24965,
+      "offset": 24971,
       "length": 8,
       "value": "\"PLNNID\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 25095,
+      "offset": 25101,
       "length": 15,
       "value": "\"FINANCIAL_TXN\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 25174,
+      "offset": 25180,
       "length": 9,
       "value": "\"ACCOUNT\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 25273,
+      "offset": 25279,
       "length": 10,
       "value": "\"PURCHASE\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 25959,
+      "offset": 25965,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 26333,
+      "offset": 26339,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 26689,
+      "offset": 26695,
       "length": 18,
       "value": "\"Fetch OTP Failed\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 26898,
+      "offset": 26904,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 26910,
+      "offset": 26916,
       "length": 8,
       "value": "\"Failed\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 26980,
+      "offset": 26986,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 27066,
+      "offset": 27072,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 27114,
+      "offset": 27120,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 27300,
+      "offset": 27306,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 27568,
+      "offset": 27574,
       "length": 17,
       "value": "\"SECURE_PAGE_URL\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 27753,
+      "offset": 27759,
       "length": 9,
       "value": "\"ACCOUNT\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 28509,
+      "offset": 28515,
       "length": 9,
       "value": "\"payment\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 28593,
+      "offset": 28599,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 29366,
+      "offset": 29372,
       "length": 9,
       "value": "\"failure\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 29732,
+      "offset": 29738,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 29771,
+      "offset": 29777,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 29852,
+      "offset": 29858,
       "length": 12,
       "value": "\"Add Amount\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 29975,
+      "offset": 29981,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 29999,
+      "offset": 30005,
       "length": 14,
       "value": "\"Rp \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 30012,
+      "offset": 30018,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 30104,
+      "offset": 30110,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 30183,
+      "offset": 30189,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 30207,
+      "offset": 30213,
       "length": 25,
       "value": "\"to this virtual account\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 30343,
+      "offset": 30349,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 30471,
+      "offset": 30477,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 30550,
+      "offset": 30556,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 30574,
+      "offset": 30580,
       "length": 24,
       "value": "\"to complete your order\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 30789,
+      "offset": 30795,
       "length": 23,
       "value": "\"Indepay Fast Checkout\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 30869,
+      "offset": 30875,
       "length": 6,
       "value": "\"QRIS\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 30909,
+      "offset": 30915,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 31208,
+      "offset": 31214,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 31249,
+      "offset": 31255,
       "length": 4,
       "value": "\"VA\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 31337,
+      "offset": 31343,
       "length": 13,
       "value": "\"Credit Card\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 31468,
+      "offset": 31474,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 31647,
+      "offset": 31653,
       "length": 6,
       "value": "\"Back\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 31830,
+      "offset": 31836,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 32322,
+      "offset": 32328,
       "length": 4,
       "value": "0.13"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 32424,
+      "offset": 32430,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 32453,
+      "offset": 32459,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 32560,
+      "offset": 32566,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 32631,
+      "offset": 32637,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 32699,
+      "offset": 32705,
       "length": 4,
       "value": "0.99"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 32747,
+      "offset": 32753,
       "length": 3,
       "value": "-90"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 32804,
+      "offset": 32810,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 32818,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
-      "kind": "IntegerLiteral",
       "offset": 32824,
       "length": 1,
-      "value": "0"
+      "value": "4"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
       "offset": 32830,
       "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32836,
+      "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 33194,
+      "offset": 33200,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 33347,
+      "offset": 33353,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 33584,
+      "offset": 33590,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 33597,
+      "offset": 33603,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 33673,
+      "offset": 33679,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 33837,
+      "offset": 33843,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 33885,
+      "offset": 33891,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 34214,
+      "offset": 34220,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 34282,
+      "offset": 34288,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 34294,
+      "offset": 34300,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 34347,
+      "offset": 34353,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "FloatLiteral",
-      "offset": 34454,
+      "offset": 34460,
       "length": 4,
       "value": "0.01"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 34625,
+      "offset": 34631,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 34688,
+      "offset": 34694,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 34699,
+      "offset": 34705,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 34725,
+      "offset": 34731,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 34737,
+      "offset": 34743,
       "length": 21,
       "value": "\"Time limit exceeded\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 34776,
+      "offset": 34782,
       "length": 11,
       "value": "\"paymentId\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 34919,
+      "offset": 34925,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 35059,
+      "offset": 35065,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 35094,
+      "offset": 35100,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/screens\/HangUpScreen.swift",
       "kind": "StringLiteral",
-      "offset": 35127,
+      "offset": 35133,
       "length": 11,
       "value": "\"%02d:%02d\""
     },
@@ -35325,147 +35343,168 @@
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 3588,
+      "offset": 3609,
       "length": 17,
       "value": "\"Error: \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 3604,
+      "offset": 3625,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 3633,
+      "offset": 3654,
       "length": 23,
       "value": "\"response: \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 3655,
+      "offset": 3676,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 3874,
-      "length": 55,
-      "value": "\"backend error in debit api - no response --> \""
+      "offset": 3759,
+      "length": 91,
+      "value": "\"Response Data: \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 3928,
+      "offset": 3816,
+      "length": 32,
+      "value": "\"Unable to decode response data\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3849,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4062,
+      "length": 40,
+      "value": "\"Error decoding response data: \""
+    },
+    {
+      "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4101,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4154,
+      "offset": 4328,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4160,
+      "offset": 4334,
       "length": 3,
       "value": "499"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 4248,
+      "offset": 4422,
       "length": 45,
       "value": "\"Client error during API call: \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 4292,
+      "offset": 4466,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4353,
+      "offset": 4527,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4359,
+      "offset": 4533,
       "length": 3,
       "value": "599"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 4447,
+      "offset": 4621,
       "length": 45,
       "value": "\"Server error during API call: \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 4491,
+      "offset": 4665,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 4612,
+      "offset": 4786,
       "length": 38,
       "value": "\"Error: \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 4649,
+      "offset": 4823,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 4784,
+      "offset": 4958,
       "length": 38,
       "value": "\"Error: \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 4821,
+      "offset": 4995,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4921,
+      "offset": 5095,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 5055,
+      "offset": 5229,
       "length": 55,
       "value": "\"Something went wrong, please try again after sometime\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/paymentlib\/apiService\/APIManager.swift",
       "kind": "StringLiteral",
-      "offset": 5365,
+      "offset": 5539,
       "length": 19,
       "value": "\"requestUrl is nil\""
     },

@@ -31,8 +31,7 @@ public struct SessionManager {
   public static func checkDeviceRegistered(mobile: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
   public static func saveIsRegistered(value: Swift.Bool)
   public static func getIsRegistered() -> Swift.Bool?
-  public static func getMobile() -> Swift.String?
-  public static func saveMobile(data: Swift.String)
+  public static func getMobilePspsdk() -> Swift.String?
   public static func getAppId() -> Swift.String?
   public static func deleteAllKeychainData()
   public static func getUsername() -> Swift.String?

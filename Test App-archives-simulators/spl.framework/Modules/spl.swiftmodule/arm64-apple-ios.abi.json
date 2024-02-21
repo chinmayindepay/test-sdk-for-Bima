@@ -5118,6 +5118,36 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMobileSpl",
+            "printedName": "getMobileSpl()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:3spl14SessionManagerV12getMobileSplSSSgyFZ",
+            "mangledName": "$s3spl14SessionManagerV12getMobileSplSSSgyFZ",
+            "moduleName": "spl",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -8725,98 +8755,98 @@
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/Controller\/DeviceRegistrationContoller.swift",
       "kind": "StringLiteral",
-      "offset": 2536,
+      "offset": 2539,
       "length": 38,
       "value": "\"response.commonResponse.symmetricKey\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/Controller\/DeviceRegistrationContoller.swift",
       "kind": "StringLiteral",
-      "offset": 2666,
+      "offset": 2669,
       "length": 12,
       "value": "\"sessionKey\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/Controller\/DeviceRegistrationContoller.swift",
       "kind": "StringLiteral",
-      "offset": 3013,
+      "offset": 3016,
       "length": 11,
       "value": "\"encSymKey\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/Controller\/DeviceRegistrationContoller.swift",
       "kind": "IntegerLiteral",
-      "offset": 3258,
+      "offset": 3261,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/Controller\/DeviceRegistrationContoller.swift",
       "kind": "StringLiteral",
-      "offset": 4025,
+      "offset": 4028,
       "length": 51,
       "value": "\"PSP Identifier: \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/Controller\/DeviceRegistrationContoller.swift",
       "kind": "StringLiteral",
-      "offset": 4069,
+      "offset": 4072,
       "length": 5,
       "value": "\"N\/A\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/Controller\/DeviceRegistrationContoller.swift",
       "kind": "StringLiteral",
-      "offset": 4075,
+      "offset": 4078,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/Controller\/DeviceRegistrationContoller.swift",
       "kind": "StringLiteral",
-      "offset": 4468,
+      "offset": 4474,
       "length": 37,
       "value": "\"Spl Key: \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/Controller\/DeviceRegistrationContoller.swift",
       "kind": "StringLiteral",
-      "offset": 4498,
+      "offset": 4504,
       "length": 5,
       "value": "\"N\/A\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/Controller\/DeviceRegistrationContoller.swift",
       "kind": "StringLiteral",
-      "offset": 4504,
+      "offset": 4510,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/Controller\/DeviceRegistrationContoller.swift",
       "kind": "StringLiteral",
-      "offset": 4583,
+      "offset": 4589,
       "length": 31,
       "value": "\"Error decoding JSON: \""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/Controller\/DeviceRegistrationContoller.swift",
       "kind": "StringLiteral",
-      "offset": 4613,
+      "offset": 4619,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/Controller\/DeviceRegistrationContoller.swift",
       "kind": "StringLiteral",
-      "offset": 4713,
+      "offset": 4719,
       "length": 22,
       "value": "\"Invalid JSON string.\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/Controller\/DeviceRegistrationContoller.swift",
       "kind": "StringLiteral",
-      "offset": 4958,
+      "offset": 4964,
       "length": 6,
       "value": "\"done\""
     },
@@ -9803,875 +9833,875 @@
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 8330,
+      "offset": 8333,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 8378,
+      "offset": 8381,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 8851,
+      "offset": 8854,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 9237,
+      "offset": 9240,
       "length": 53,
       "value": "\"\/umps-core\/spl-sdk\/urn:apiver:1.0\/validate-card-num\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 9316,
+      "offset": 9319,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "Dictionary",
-      "offset": 9381,
+      "offset": 9384,
       "length": 36,
       "value": "[(\"Content-Type\", \"application\/json\")]"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 10595,
+      "offset": 10598,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 10817,
+      "offset": 10820,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 10865,
+      "offset": 10868,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 10896,
+      "offset": 10899,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 11154,
+      "offset": 11157,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 11193,
+      "offset": 11196,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 11233,
+      "offset": 11236,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 11273,
+      "offset": 11276,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 11317,
+      "offset": 11323,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 11365,
+      "offset": 11371,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 11717,
+      "offset": 11723,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 12132,
+      "offset": 12138,
       "length": 51,
       "value": "\"\/umps-core\/spl-sdk\/urn:apiver:1.0\/request-web-url\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 12209,
+      "offset": 12215,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "Dictionary",
-      "offset": 12274,
+      "offset": 12280,
       "length": 36,
       "value": "[(\"Content-Type\", \"application\/json\")]"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "IntegerLiteral",
-      "offset": 13061,
+      "offset": 13067,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 15522,
+      "offset": 15528,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 15726,
+      "offset": 15732,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 15774,
+      "offset": 15780,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 15805,
+      "offset": 15811,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 15940,
+      "offset": 15946,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 15979,
+      "offset": 15985,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 16019,
+      "offset": 16025,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 16059,
+      "offset": 16065,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 16103,
+      "offset": 16112,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 16151,
+      "offset": 16160,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 17960,
+      "offset": 17969,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 18310,
+      "offset": 18319,
       "length": 56,
       "value": "\"\/umps-core\/spl-sdk\/urn:apiver:1.0\/register-card-detail\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 18392,
+      "offset": 18401,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "Dictionary",
-      "offset": 18457,
+      "offset": 18466,
       "length": 36,
       "value": "[(\"Content-Type\", \"application\/json\")]"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 18876,
+      "offset": 18885,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 19871,
+      "offset": 19880,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 20082,
+      "offset": 20091,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 20130,
+      "offset": 20139,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 20161,
+      "offset": 20170,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 20419,
+      "offset": 20428,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 20458,
+      "offset": 20467,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 20498,
+      "offset": 20507,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 20538,
+      "offset": 20547,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 20582,
+      "offset": 20594,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 20630,
+      "offset": 20642,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 20666,
+      "offset": 20678,
       "length": 12,
       "value": "\"deviceInfo\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "BooleanLiteral",
-      "offset": 20923,
+      "offset": 20935,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 21162,
+      "offset": 21174,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 21631,
+      "offset": 21643,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 21659,
+      "offset": 21671,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 21691,
+      "offset": 21703,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 21789,
+      "offset": 21801,
       "length": 48,
       "value": "\"\/umps-core\/spl-sdk\/urn:apiver:1.0\/retrieve-key\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 21863,
+      "offset": 21875,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "Dictionary",
-      "offset": 21928,
+      "offset": 21940,
       "length": 36,
       "value": "[(\"Content-Type\", \"application\/json\")]"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "IntegerLiteral",
-      "offset": 22732,
+      "offset": 22744,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 25740,
+      "offset": 25752,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 25946,
+      "offset": 25958,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 25994,
+      "offset": 26006,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 26188,
+      "offset": 26200,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 26228,
+      "offset": 26240,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 26268,
+      "offset": 26280,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 26312,
+      "offset": 26327,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 26360,
+      "offset": 26375,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 26984,
+      "offset": 26999,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 27386,
+      "offset": 27401,
       "length": 45,
       "value": "\"\/umps-core\/spl-sdk\/urn:apiver:1.0\/authorize\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 27457,
+      "offset": 27472,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "Dictionary",
-      "offset": 27522,
+      "offset": 27537,
       "length": 36,
       "value": "[(\"Content-Type\", \"application\/json\")]"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "BooleanLiteral",
-      "offset": 28162,
+      "offset": 28177,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "BooleanLiteral",
-      "offset": 28253,
+      "offset": 28268,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "BooleanLiteral",
-      "offset": 28330,
+      "offset": 28345,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 29109,
+      "offset": 29124,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 29331,
+      "offset": 29346,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 29379,
+      "offset": 29394,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 29697,
+      "offset": 29712,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 29737,
+      "offset": 29752,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 29777,
+      "offset": 29792,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 29821,
+      "offset": 29839,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 29869,
+      "offset": 29887,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 29967,
+      "offset": 29985,
       "length": 10,
       "value": "\"PURCHASE\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 30264,
+      "offset": 30282,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 30730,
+      "offset": 30748,
       "length": 60,
       "value": "\"\/umps-core\/spl-sdk\/urn:apiver:1.0\/fetch-otp-challenge-code\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 30816,
+      "offset": 30834,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "Dictionary",
-      "offset": 30881,
+      "offset": 30899,
       "length": 36,
       "value": "[(\"Content-Type\", \"application\/json\")]"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "IntegerLiteral",
-      "offset": 31665,
+      "offset": 31683,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 33306,
+      "offset": 33324,
       "length": 19,
       "value": "\"Exception Occured\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 33326,
+      "offset": 33344,
       "length": 19,
       "value": "\"Exception Occured\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 33431,
+      "offset": 33449,
       "length": 19,
       "value": "\"Exception Occured\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 33451,
+      "offset": 33469,
       "length": 19,
       "value": "\"Exception Occured\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 33542,
+      "offset": 33560,
       "length": 19,
       "value": "\"Exception Occured\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 33562,
+      "offset": 33580,
       "length": 19,
       "value": "\"Exception Occured\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 33742,
+      "offset": 33760,
       "length": 66,
       "value": "\"\/mpgs\/txn-status?txnId={txnId}&txnStatusFlagEnum=IS_OTP_VERIFIED\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 33875,
+      "offset": 33893,
       "length": 9,
       "value": "\"{txnId}\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 34030,
+      "offset": 34048,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 34098,
+      "offset": 34116,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "Dictionary",
-      "offset": 34125,
+      "offset": 34143,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "Array",
-      "offset": 34463,
+      "offset": 34481,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 34555,
+      "offset": 34573,
       "length": 11,
       "value": "\"txnStatus\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 34634,
+      "offset": 34652,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 34674,
+      "offset": 34692,
       "length": 7,
       "value": "\"retry\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 34742,
+      "offset": 34760,
       "length": 6,
       "value": "\"stop\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 34825,
+      "offset": 34843,
       "length": 6,
       "value": "\"stop\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 34904,
+      "offset": 34922,
       "length": 6,
       "value": "\"stop\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 35616,
+      "offset": 35634,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 35822,
+      "offset": 35840,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 35870,
+      "offset": 35888,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 36064,
+      "offset": 36082,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 36104,
+      "offset": 36122,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 36144,
+      "offset": 36162,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 36188,
+      "offset": 36209,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 36236,
+      "offset": 36257,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 36775,
+      "offset": 36796,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 37191,
+      "offset": 37212,
       "length": 52,
       "value": "\"\/umps-core\/spl-sdk\/urn:apiver:1.0\/validate-otp-api\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 37269,
+      "offset": 37290,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "Dictionary",
-      "offset": 37334,
+      "offset": 37355,
       "length": 36,
       "value": "[(\"Content-Type\", \"application\/json\")]"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "BooleanLiteral",
-      "offset": 37767,
+      "offset": 37788,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 38059,
+      "offset": 38080,
       "length": 19,
       "value": "\"Exception Occured\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 38079,
+      "offset": 38100,
       "length": 19,
       "value": "\"Exception Occured\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 38184,
+      "offset": 38205,
       "length": 19,
       "value": "\"Exception Occured\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 38204,
+      "offset": 38225,
       "length": 19,
       "value": "\"Exception Occured\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 38295,
+      "offset": 38316,
       "length": 19,
       "value": "\"Exception Occured\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 38315,
+      "offset": 38336,
       "length": 19,
       "value": "\"Exception Occured\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "Array",
-      "offset": 38715,
+      "offset": 38736,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 38825,
+      "offset": 38846,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chinmay\/Desktop\/ios-payment-sdk\/pspapp\/spl\/apiSerivce\/SplApiService.swift",
       "kind": "StringLiteral",
-      "offset": 38834,
+      "offset": 38855,
       "length": 2,
       "value": "\"\""
     },

@@ -179,6 +179,7 @@ public struct RegisterAccountDetails : Swift.Codable {
 }
 public struct SessionManager {
   public static func getIsRegistered() -> Swift.Bool?
+  public static func getMobileSpl() -> Swift.String?
 }
 public struct ValidateCardNumRequest : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
