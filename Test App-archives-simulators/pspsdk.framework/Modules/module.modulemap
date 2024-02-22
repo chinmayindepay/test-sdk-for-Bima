@@ -1,4 +1,0 @@
-framework module pspsdk {
-  header "pspsdk-Swift.h"
-  requires objc
-}
