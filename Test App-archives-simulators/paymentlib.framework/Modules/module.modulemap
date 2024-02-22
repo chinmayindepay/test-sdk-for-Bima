@@ -1,0 +1,4 @@
+framework module paymentlib {
+  header "paymentlib-Swift.h"
+  requires objc
+}
