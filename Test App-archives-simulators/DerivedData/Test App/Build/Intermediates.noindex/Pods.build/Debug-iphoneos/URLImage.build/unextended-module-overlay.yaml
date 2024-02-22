@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/vaibhavbhatt/INDEPAY/SDK-test-apps/test-app/test-sdk-for-Bima/Test App-archives-simulators/DerivedData/Test App/Build/Products/Debug-iphoneos/URLImage/URLImage.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/vaibhavbhatt/INDEPAY/SDK-test-apps/test-app/test-sdk-for-Bima/Test App-archives-simulators/DerivedData/Test App/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/URLImage.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/vaibhavbhatt/INDEPAY/SDK-test-apps/test-app/test-sdk-for-Bima/Test App-archives-simulators/DerivedData/Test App/Build/Products/Debug-iphoneos/URLImage/URLImage.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "URLImage-Swift.h",
+      'external-contents': "/Users/vaibhavbhatt/INDEPAY/SDK-test-apps/test-app/test-sdk-for-Bima/Test App-archives-simulators/DerivedData/Test App/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/URLImage.build/unextended-interface-header.h",
+    }]
+    }]
+}

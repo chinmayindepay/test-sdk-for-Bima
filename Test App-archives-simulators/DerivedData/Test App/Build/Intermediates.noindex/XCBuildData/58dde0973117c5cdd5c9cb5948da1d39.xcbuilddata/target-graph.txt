@@ -1,0 +1,16 @@
+Target dependency graph (6 targets)
+Target 'Test App' in project 'Test App'
+➜ Implicit dependency on target 'Pods-Test App' in project 'Pods' via file 'Pods_Test_App.framework' in build phase 'Link Binary'
+➜ Implicit dependency on target 'Alamofire' in project 'Pods' via options '-framework Alamofire' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'CryptoSwift' in project 'Pods' via options '-framework CryptoSwift' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'SwiftyRSA' in project 'Pods' via options '-framework SwiftyRSA' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'URLImage' in project 'Pods' via options '-framework URLImage' in build setting 'OTHER_LDFLAGS'
+Target 'Pods-Test App' in project 'Pods'
+➜ Explicit dependency on target 'Alamofire' in project 'Pods'
+➜ Explicit dependency on target 'CryptoSwift' in project 'Pods'
+➜ Explicit dependency on target 'SwiftyRSA' in project 'Pods'
+➜ Explicit dependency on target 'URLImage' in project 'Pods'
+Target 'URLImage' in project 'Pods' (no dependencies)
+Target 'SwiftyRSA' in project 'Pods' (no dependencies)
+Target 'CryptoSwift' in project 'Pods' (no dependencies)
+Target 'Alamofire' in project 'Pods' (no dependencies)
