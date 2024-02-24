@@ -10,15 +10,11 @@
 		</data>
 		<key>Frameworks/SwiftyRSA.framework/SwiftyRSA</key>
 		<data>
-		KyeqEekO94p+1Nf5SBTqW3J5ajk=
+		Y7/wt1w7n76Zpfnf5zgxhCdNGdo=
 		</data>
 		<key>Frameworks/SwiftyRSA.framework/_CodeSignature/CodeResources</key>
 		<data>
 		WlW0txv/32KFawkdRYf0/42PhoU=
-		</data>
-		<key>GoogleService-Info.plist</key>
-		<data>
-		DlipnWYoc2CcFFTJKShnVM+aRrI=
 		</data>
 		<key>Headers/spl-Swift.h</key>
 		<data>
@@ -34,11 +30,11 @@
 		</data>
 		<key>Modules/spl.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		cZnJRrKQPrANMrpohRLA1RBc4kw=
+		G5rdPaKLVloYLfs4hb4oAEXCriw=
 		</data>
 		<key>Modules/spl.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ivpt1vgsd4rVepD/qjakopN20Rc=
+		gXjgn5CENSgVgyIPQlZR5aRl590=
 		</data>
 		<key>Modules/spl.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -54,7 +50,7 @@
 		</data>
 		<key>Modules/spl.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		kadcKs8+UcxdEHArHofU0O43JYI=
+		ou/BZyQGFhwownhlqxZeUGih9JU=
 		</data>
 		<key>spl.md</key>
 		<data>
@@ -74,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yk56GgGyRWqbl867dIQQ5yq4mgfYQq0YsZ5HOHYHrHw=
+			bBX/JcvU2m9UUzKoHozJjcracZ5ol7d5/auQUYOrTbE=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftyRSA.framework/_CodeSignature/CodeResources</key>
@@ -82,13 +78,6 @@
 			<key>hash2</key>
 			<data>
 			nR6TA8o/6vFr4CaQotMp+QpGWJE9kIaC15DIETXGMqo=
-			</data>
-		</dict>
-		<key>GoogleService-Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Jsz/LJlouIK5ysophtwFD84zs8OQqoAGUKE6mMT34lk=
 			</data>
 		</dict>
 		<key>Headers/spl-Swift.h</key>
@@ -109,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HXUMQ1s2fF3GUcZT7UGnkfxo75ninWSMIS6B4gGsxe8=
+			Qx8d2wQck9PwKglM7Rfu+f9u1ip9KOCcNVlqRUf/0vU=
 			</data>
 		</dict>
 		<key>Modules/spl.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nE2BuHxftiQ7/80MRHXWfb1Cki+pzY/u1I1ZBWpInZs=
+			Upcq62hPmEL+CZ1A8KxKTn0NhecFHzfNpvMewnY8Wj0=
 			</data>
 		</dict>
 		<key>Modules/spl.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -144,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GDYL1/lohAjATXj0So6yqU6f6NWjhHj+FxWBSnex1VI=
+			GNqOG0FgcesyDx2vYKuaXNrVC1TU7qclPltv9pNboT8=
 			</data>
 		</dict>
 		<key>spl.md</key>

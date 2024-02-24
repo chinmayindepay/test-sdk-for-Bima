@@ -14,7 +14,7 @@
 		</data>
 		<key>Frameworks/SwiftyRSA.framework/SwiftyRSA</key>
 		<data>
-		aOOPeyanmlUTkjF0ZXdqdIiDI2Q=
+		3YXmFxvEyqkjHqK1CBkdWJkkeyU=
 		</data>
 		<key>Frameworks/SwiftyRSA.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -26,15 +26,11 @@
 		</data>
 		<key>Frameworks/spl.framework/Frameworks/SwiftyRSA.framework/SwiftyRSA</key>
 		<data>
-		KyeqEekO94p+1Nf5SBTqW3J5ajk=
+		Y7/wt1w7n76Zpfnf5zgxhCdNGdo=
 		</data>
 		<key>Frameworks/spl.framework/Frameworks/SwiftyRSA.framework/_CodeSignature/CodeResources</key>
 		<data>
 		WlW0txv/32KFawkdRYf0/42PhoU=
-		</data>
-		<key>Frameworks/spl.framework/GoogleService-Info.plist</key>
-		<data>
-		DlipnWYoc2CcFFTJKShnVM+aRrI=
 		</data>
 		<key>Frameworks/spl.framework/Info.plist</key>
 		<data>
@@ -42,19 +38,15 @@
 		</data>
 		<key>Frameworks/spl.framework/_CodeSignature/CodeResources</key>
 		<data>
-		aUpjnucbu8tSjg48V+kLoj0l4rE=
+		/ld5hArfflJi4dHM+D6QieaI4+Y=
 		</data>
 		<key>Frameworks/spl.framework/spl</key>
 		<data>
-		EE5E+wBg5D8qmQhBEwBWWA0mWjg=
+		+wTFm49T/gdPveB8E54SyLOe6fs=
 		</data>
 		<key>Frameworks/spl.framework/spl.md</key>
 		<data>
 		E1PnwiNJud+ZYnP5Fx7uVPygM5E=
-		</data>
-		<key>GoogleService-Info.plist</key>
-		<data>
-		DlipnWYoc2CcFFTJKShnVM+aRrI=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -81,7 +73,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PZ2a+bXQ1QYneo0YUiBMj5itLrdE27IfUpoThviohLs=
+			yiMIylZOBZmgZlexzqMbFRyATdDzD+/UIQRE3aa4Jh4=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftyRSA.framework/_CodeSignature/CodeResources</key>
@@ -102,7 +94,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yk56GgGyRWqbl867dIQQ5yq4mgfYQq0YsZ5HOHYHrHw=
+			bBX/JcvU2m9UUzKoHozJjcracZ5ol7d5/auQUYOrTbE=
 			</data>
 		</dict>
 		<key>Frameworks/spl.framework/Frameworks/SwiftyRSA.framework/_CodeSignature/CodeResources</key>
@@ -110,13 +102,6 @@
 			<key>hash2</key>
 			<data>
 			nR6TA8o/6vFr4CaQotMp+QpGWJE9kIaC15DIETXGMqo=
-			</data>
-		</dict>
-		<key>Frameworks/spl.framework/GoogleService-Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Jsz/LJlouIK5ysophtwFD84zs8OQqoAGUKE6mMT34lk=
 			</data>
 		</dict>
 		<key>Frameworks/spl.framework/Info.plist</key>
@@ -130,14 +115,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e3pfHnkioDVELZYAFRddcCHeUcQbd7/2zTcMClNAr8M=
+			xEFKkn3GgIwl4iUNw5oN8o0AY7agLKpc5Aem0v100P4=
 			</data>
 		</dict>
 		<key>Frameworks/spl.framework/spl</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H8zeY1scAMc0zWSkb9OK8jcG7bv7bwgj7kSXRiOX3Zc=
+			AzQIN7k8Y8DC8cjQczAp8EUySZEhwTQZpseogcbJXGM=
 			</data>
 		</dict>
 		<key>Frameworks/spl.framework/spl.md</key>
@@ -145,13 +130,6 @@
 			<key>hash2</key>
 			<data>
 			C19oqLsixniEKFu/NSN4RxJei08M60rrYXtpP0BM9r0=
-			</data>
-		</dict>
-		<key>GoogleService-Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Jsz/LJlouIK5ysophtwFD84zs8OQqoAGUKE6mMT34lk=
 			</data>
 		</dict>
 	</dict>
