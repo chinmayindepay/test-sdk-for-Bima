@@ -283,11 +283,10 @@ extension RSA {
   /// ```
   func publicKeyDER() throws -> Array<UInt8> {
     let mod = self.n.serialize()
-    let exp = self.e.serialize()
     let pubKeyAsnNode: ASN1.Node =
       .sequence(nodes: [
         .integer(data: DER.i2ospData(x: mod.bytes, size: self.keySizeBytes)),
-        .integer(data: DER.i2ospData(x: exp.bytes, size: exp.bytes.count))
+        .integer(data: DER.i2ospData(x: self.e.serialize().bytes, size: 3))
       ])
     return ASN1.Encoder.encode(pubKeyAsnNode)
   }

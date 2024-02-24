@@ -16,11 +16,6 @@
 final class StreamEncryptor: Cryptor, Updatable {
 
   @usableFromInline
-  enum Error: Swift.Error {
-    case unsupported
-  }
-
-  @usableFromInline
   internal let blockSize: Int
 
   @usableFromInline
@@ -68,6 +63,6 @@ final class StreamEncryptor: Cryptor, Updatable {
 
   @usableFromInline
   func seek(to: Int) throws {
-    throw Error.unsupported
+    fatalError("Not supported")
   }
 }
