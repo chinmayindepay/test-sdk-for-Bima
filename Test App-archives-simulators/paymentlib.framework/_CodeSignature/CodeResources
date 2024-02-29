@@ -8,109 +8,45 @@
 		<data>
 		b4Ok/rsyPr0QyfCf4KE148f1GGo=
 		</data>
-		<key>Frameworks/pspsdk.framework/Assets.car</key>
-		<data>
-		zo0JZ51pxEKGR7nz2D7k7YS2SRQ=
-		</data>
-		<key>Frameworks/pspsdk.framework/Frameworks/SwiftyRSA.framework/Info.plist</key>
-		<data>
-		zztEmW8ifD2bmX7lCC7M2QSPeV0=
-		</data>
-		<key>Frameworks/pspsdk.framework/Frameworks/SwiftyRSA.framework/SwiftyRSA</key>
-		<data>
-		aOOPeyanmlUTkjF0ZXdqdIiDI2Q=
-		</data>
-		<key>Frameworks/pspsdk.framework/Frameworks/SwiftyRSA.framework/_CodeSignature/CodeResources</key>
-		<data>
-		WlW0txv/32KFawkdRYf0/42PhoU=
-		</data>
-		<key>Frameworks/pspsdk.framework/Frameworks/spl.framework/Frameworks/SwiftyRSA.framework/Info.plist</key>
-		<data>
-		zztEmW8ifD2bmX7lCC7M2QSPeV0=
-		</data>
-		<key>Frameworks/pspsdk.framework/Frameworks/spl.framework/Frameworks/SwiftyRSA.framework/SwiftyRSA</key>
-		<data>
-		KyeqEekO94p+1Nf5SBTqW3J5ajk=
-		</data>
-		<key>Frameworks/pspsdk.framework/Frameworks/spl.framework/Frameworks/SwiftyRSA.framework/_CodeSignature/CodeResources</key>
-		<data>
-		WlW0txv/32KFawkdRYf0/42PhoU=
-		</data>
-		<key>Frameworks/pspsdk.framework/Frameworks/spl.framework/GoogleService-Info.plist</key>
-		<data>
-		DlipnWYoc2CcFFTJKShnVM+aRrI=
-		</data>
-		<key>Frameworks/pspsdk.framework/Frameworks/spl.framework/Info.plist</key>
-		<data>
-		LB7bOWAZeja+sG92BmGEdS1Buuw=
-		</data>
-		<key>Frameworks/pspsdk.framework/Frameworks/spl.framework/_CodeSignature/CodeResources</key>
-		<data>
-		aUpjnucbu8tSjg48V+kLoj0l4rE=
-		</data>
-		<key>Frameworks/pspsdk.framework/Frameworks/spl.framework/spl</key>
-		<data>
-		EE5E+wBg5D8qmQhBEwBWWA0mWjg=
-		</data>
-		<key>Frameworks/pspsdk.framework/Frameworks/spl.framework/spl.md</key>
-		<data>
-		E1PnwiNJud+ZYnP5Fx7uVPygM5E=
-		</data>
-		<key>Frameworks/pspsdk.framework/GoogleService-Info.plist</key>
-		<data>
-		DlipnWYoc2CcFFTJKShnVM+aRrI=
-		</data>
-		<key>Frameworks/pspsdk.framework/Info.plist</key>
-		<data>
-		Z26Oen5+VKIpvbD7IuJpw0V56Sg=
-		</data>
-		<key>Frameworks/pspsdk.framework/_CodeSignature/CodeResources</key>
-		<data>
-		xdJOwo1cbXQA5Sw79CFnfKj5190=
-		</data>
-		<key>Frameworks/pspsdk.framework/pspsdk</key>
-		<data>
-		ODfh5PaOrqw22t/1Cz1okYQJuZg=
-		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
 		DlipnWYoc2CcFFTJKShnVM+aRrI=
 		</data>
 		<key>Headers/paymentlib-Swift.h</key>
 		<data>
-		2OO04gsW5e3iLAbSDuPS65wuW6U=
+		ky/SON/Pxxxny9895pG6FVipIqQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		x/sKwymwOHGUvQ+bMj/sObhBmro=
+		1jaKicOB4HZnYwzvrq0FPcXxDO4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		/QAQnB1MffXDYztlebZa7E33YzI=
 		</data>
-		<key>Modules/paymentlib.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/paymentlib.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		QoTjC/hCETRZzdhns0gZ7Dik2Q0=
+		shyOjZ9T6wiwa1/EGX4UCvRjCG8=
 		</data>
-		<key>Modules/paymentlib.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/paymentlib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		j222/2f00lp1YCXdsZ0yx/Ts0qI=
+		417H6BQsyqBo6HSEmw2qmVzjyvA=
 		</data>
-		<key>Modules/paymentlib.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/paymentlib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xP5BYx3lAydUoVGh2O8GWuP0mhk=
+		JFMVfyukES4ODEObXD1COaqUQOg=
 		</data>
-		<key>Modules/paymentlib.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/paymentlib.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		O/O1ShUn6aDaSJ7xwlKnsO+VQoU=
+		8Y0SVp5C6qTy+JeuafZQPw0NY7s=
 		</data>
-		<key>Modules/paymentlib.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/paymentlib.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xP5BYx3lAydUoVGh2O8GWuP0mhk=
+		JFMVfyukES4ODEObXD1COaqUQOg=
 		</data>
-		<key>Modules/paymentlib.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/paymentlib.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Wo8iKGG02u8gGQXpgK0+cDFspT0=
+		JoTOn70dAfj5cBmCeYQN5d+NsWA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -122,118 +58,6 @@
 			sks3Xfdo5Ze+LapkCIv3WBK9qscq+rB5qvxKuW79MB8=
 			</data>
 		</dict>
-		<key>Frameworks/pspsdk.framework/Assets.car</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4qrQ6JuHsaPCCt7Qn21e7o0w/fUt0qsfYfQbt+joxDw=
-			</data>
-		</dict>
-		<key>Frameworks/pspsdk.framework/Frameworks/SwiftyRSA.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ay6wqlUwQA6Cy7UOM/ZUJe0c393xQFevJ4k/NINK1tI=
-			</data>
-		</dict>
-		<key>Frameworks/pspsdk.framework/Frameworks/SwiftyRSA.framework/SwiftyRSA</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PZ2a+bXQ1QYneo0YUiBMj5itLrdE27IfUpoThviohLs=
-			</data>
-		</dict>
-		<key>Frameworks/pspsdk.framework/Frameworks/SwiftyRSA.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nR6TA8o/6vFr4CaQotMp+QpGWJE9kIaC15DIETXGMqo=
-			</data>
-		</dict>
-		<key>Frameworks/pspsdk.framework/Frameworks/spl.framework/Frameworks/SwiftyRSA.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ay6wqlUwQA6Cy7UOM/ZUJe0c393xQFevJ4k/NINK1tI=
-			</data>
-		</dict>
-		<key>Frameworks/pspsdk.framework/Frameworks/spl.framework/Frameworks/SwiftyRSA.framework/SwiftyRSA</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yk56GgGyRWqbl867dIQQ5yq4mgfYQq0YsZ5HOHYHrHw=
-			</data>
-		</dict>
-		<key>Frameworks/pspsdk.framework/Frameworks/spl.framework/Frameworks/SwiftyRSA.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nR6TA8o/6vFr4CaQotMp+QpGWJE9kIaC15DIETXGMqo=
-			</data>
-		</dict>
-		<key>Frameworks/pspsdk.framework/Frameworks/spl.framework/GoogleService-Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Jsz/LJlouIK5ysophtwFD84zs8OQqoAGUKE6mMT34lk=
-			</data>
-		</dict>
-		<key>Frameworks/pspsdk.framework/Frameworks/spl.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Kxoe0pw2FpCzM6qBZusMSlUH8Ltk756JNSAFyMmUv1s=
-			</data>
-		</dict>
-		<key>Frameworks/pspsdk.framework/Frameworks/spl.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			e3pfHnkioDVELZYAFRddcCHeUcQbd7/2zTcMClNAr8M=
-			</data>
-		</dict>
-		<key>Frameworks/pspsdk.framework/Frameworks/spl.framework/spl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			H8zeY1scAMc0zWSkb9OK8jcG7bv7bwgj7kSXRiOX3Zc=
-			</data>
-		</dict>
-		<key>Frameworks/pspsdk.framework/Frameworks/spl.framework/spl.md</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			C19oqLsixniEKFu/NSN4RxJei08M60rrYXtpP0BM9r0=
-			</data>
-		</dict>
-		<key>Frameworks/pspsdk.framework/GoogleService-Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Jsz/LJlouIK5ysophtwFD84zs8OQqoAGUKE6mMT34lk=
-			</data>
-		</dict>
-		<key>Frameworks/pspsdk.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UjaipKWYCNaoHmhp+YEpsUfeu7CHAlQJIYKG6kLXFls=
-			</data>
-		</dict>
-		<key>Frameworks/pspsdk.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Qfk4gKVGescB187NXFKF5mP7qTFjF+g9xhjO+n0jEH4=
-			</data>
-		</dict>
-		<key>Frameworks/pspsdk.framework/pspsdk</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CGniJIXUoF8pNm+XZaMnRVKhj0jHukHbOR8iwTfBMuc=
-			</data>
-		</dict>
 		<key>GoogleService-Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -245,7 +69,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q6WntswbzZAndAh4eUWNNCUg1OMQ/b4GazQtiIqVlfw=
+			l5e7PbZj/xCuLdWJpKvyWA4bptorKNYW/+aL3cP1I80=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -255,46 +79,46 @@
 			sAc47vrPckx/M84MRpNhtCuSdEU51tBLflneNvhmWEY=
 			</data>
 		</dict>
-		<key>Modules/paymentlib.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/paymentlib.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2jD1YUQMN5/KTGGJZK+xHzZw2B3IZ49BikWUUSiZ6zo=
+			mVm8oxawZGdxGH1wDcH9T3bcMap3cy0CofNaWXVhEow=
 			</data>
 		</dict>
-		<key>Modules/paymentlib.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/paymentlib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cIriiXF0jOXMMoPB18UWAYaMvgIwSRLNMcCKOCPlGwg=
+			Au8mfv2cm2K6l4U3rOzdoi7OIKtbHoKbI+hJNI83NI0=
 			</data>
 		</dict>
-		<key>Modules/paymentlib.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/paymentlib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yK4kUCA/pzpu8M28RntGcxofM7cHqnOWIbyGpUvvyMc=
+			kqwS0YEquzhbZiZn0fne4BIRpsHtmI+s/6iGMYaD1G8=
 			</data>
 		</dict>
-		<key>Modules/paymentlib.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/paymentlib.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z9KKZ+eUGLsZ7FANzpjWI9+vvrHwnLalXD0bT1kGocI=
+			WZKyR4MVyxiELqDPXbKJI8fO6qTubIox5VMpaVK00Yc=
 			</data>
 		</dict>
-		<key>Modules/paymentlib.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/paymentlib.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yK4kUCA/pzpu8M28RntGcxofM7cHqnOWIbyGpUvvyMc=
+			kqwS0YEquzhbZiZn0fne4BIRpsHtmI+s/6iGMYaD1G8=
 			</data>
 		</dict>
-		<key>Modules/paymentlib.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/paymentlib.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DMX53alzbcLAj8GJwku/ncNtgbn7L2BBuVmgM+KDI0M=
+			nBWaxO9sQqsLHmu3p1SW2gZchSExvNcojtfzK4vRpCk=
 			</data>
 		</dict>
 	</dict>

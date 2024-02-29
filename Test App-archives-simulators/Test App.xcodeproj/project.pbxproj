@@ -72,7 +72,7 @@
 		82D1C8292B6BAAE20076A854 /* paymentlib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = paymentlib.framework; sourceTree = "<group>"; };
 		82D1C82A2B6BAAE20076A854 /* pspsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pspsdk.framework; sourceTree = "<group>"; };
 		82D1C82B2B6BAAE30076A854 /* SwiftyRSA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyRSA.framework; sourceTree = "<group>"; };
-		82D6932C2B62FD0100146B93 /* Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D6932C2B62FD0100146B93 /* pspapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pspapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D6932F2B62FD0100146B93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82D693312B62FD0100146B93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		82D693332B62FD0100146B93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 		82D6932D2B62FD0100146B93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82D6932C2B62FD0100146B93 /* Test App.app */,
+				82D6932C2B62FD0100146B93 /* pspapp.app */,
 				82D693422B62FD0400146B93 /* Test AppTests.xctest */,
 				82D6934C2B62FD0400146B93 /* Test AppUITests.xctest */,
 			);
@@ -209,9 +209,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		82D6932B2B62FD0100146B93 /* Test App */ = {
+		82D6932B2B62FD0100146B93 /* pspapp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82D693562B62FD0400146B93 /* Build configuration list for PBXNativeTarget "Test App" */;
+			buildConfigurationList = 82D693562B62FD0400146B93 /* Build configuration list for PBXNativeTarget "pspapp" */;
 			buildPhases = (
 				F25E28D1CF6FF2695DD5D03F /* [CP] Check Pods Manifest.lock */,
 				82D693282B62FD0100146B93 /* Sources */,
@@ -224,11 +224,11 @@
 			);
 			dependencies = (
 			);
-			name = "Test App";
+			name = pspapp;
 			packageProductDependencies = (
 			);
 			productName = "Test App";
-			productReference = 82D6932C2B62FD0100146B93 /* Test App.app */;
+			productReference = 82D6932C2B62FD0100146B93 /* pspapp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		82D693412B62FD0400146B93 /* Test AppTests */ = {
@@ -308,7 +308,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82D6932B2B62FD0100146B93 /* Test App */,
+				82D6932B2B62FD0100146B93 /* pspapp */,
 				82D693412B62FD0400146B93 /* Test AppTests */,
 				82D6934B2B62FD0400146B93 /* Test AppUITests */,
 			);
@@ -478,12 +478,12 @@
 /* Begin PBXTargetDependency section */
 		82D693442B62FD0400146B93 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 82D6932B2B62FD0100146B93 /* Test App */;
+			target = 82D6932B2B62FD0100146B93 /* pspapp */;
 			targetProxy = 82D693432B62FD0400146B93 /* PBXContainerItemProxy */;
 		};
 		82D6934E2B62FD0400146B93 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 82D6932B2B62FD0100146B93 /* Test App */;
+			target = 82D6932B2B62FD0100146B93 /* pspapp */;
 			targetProxy = 82D6934D2B62FD0400146B93 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -635,7 +635,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CJA4P86D39;
+				DEVELOPMENT_TEAM = WFGHTTCD8W;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -647,13 +647,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chinmay.Test-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indepay.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -672,7 +672,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CJA4P86D39;
+				DEVELOPMENT_TEAM = WFGHTTCD8W;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -684,13 +684,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chinmay.Test-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indepay.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -793,7 +793,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82D693562B62FD0400146B93 /* Build configuration list for PBXNativeTarget "Test App" */ = {
+		82D693562B62FD0400146B93 /* Build configuration list for PBXNativeTarget "pspapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82D693572B62FD0400146B93 /* Debug */,
